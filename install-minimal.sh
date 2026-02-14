@@ -16,10 +16,11 @@ export OMARCHY_MINIMAL=true
 source "$OMARCHY_INSTALL/helpers/all.sh"
 source "$OMARCHY_INSTALL/preflight/all.sh"
 
-# Custom minimal packaging
+# Custom minimal packaging (base.sh reads omarchy-minimal.packages when OMARCHY_MINIMAL=true)
+run_logged $OMARCHY_INSTALL/packaging/base.sh
 run_logged $OMARCHY_INSTALL/packaging/fonts.sh
 run_logged $OMARCHY_INSTALL/packaging/nvim.sh
-run_logged $OMARCHY_INSTALL/packaging/icons.sh"
+run_logged $OMARCHY_INSTALL/packaging/icons.sh
 
 source "$OMARCHY_INSTALL/config/all.sh"
 source "$OMARCHY_INSTALL/login/all.sh"

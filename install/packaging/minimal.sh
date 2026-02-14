@@ -1,6 +1,7 @@
 # Omarchy Minimal - Custom packaging that skips bloat
 
-# Only install base packages from our minimal list
+# Install base packages from our minimal list (base.sh reads OMARCHY_MINIMAL)
+run_logged $OMARCHY_INSTALL/packaging/base.sh
 run_logged $OMARCHY_INSTALL/packaging/fonts.sh
 run_logged $OMARCHY_INSTALL/packaging/nvim.sh
 run_logged $OMARCHY_INSTALL/packaging/icons.sh
