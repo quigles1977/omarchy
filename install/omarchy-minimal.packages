@@ -76,9 +76,9 @@ noto-fonts-emoji
 ttf-cascadia-mono-nerd
 ttf-jetbrains-mono-nerd
 
-# Tailscale (optional - can be installed via omarchy menu)
-# tailscale
+# Tailscale
+tailscale
 
-# 1Password (optional - can be installed via omarchy menu)
-# 1password-beta
-# 1password-cli
+# 1Password
+1password-beta
+1password-cli
