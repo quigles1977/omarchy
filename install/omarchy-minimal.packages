@@ -1,0 +1,84 @@
+# Omarchy Minimal - Core package list
+# Just Hyprland + terminal + browser + essential dev tools
+
+# Core desktop
+hyprland
+hypridle
+hyprlock
+hyprpicker
+hyprsunset
+waybar
+mako
+uwsm
+swaybg
+swayosd
+wl-clipboard
+slurp
+grim
+brightnessctl
+pamixer
+playerctl
+wireplumber
+wofi
+
+# Terminal & Shell
+alacritty
+ghostty
+bash-completion
+starship
+zoxide
+fzf
+eza
+bat
+fd
+ripgrep
+jq
+less
+tree
+
+# Browser
+chromium
+
+# Editor
+nvim
+omarchy-nvim
+
+# Dev tools
+opencode
+github-cli
+git
+yay
+docker
+docker-compose
+lazydocker
+lazygit
+
+# Essential utils
+fastfetch
+btop
+dust
+fastfetch
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+polkit-gnome
+gnome-keyring
+NetworkManager
+iwd
+bluez
+bluez-utils
+cups
+system-config-printer
+
+# Fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-cascadia-mono-nerd
+ttf-jetbrains-mono-nerd
+
+# Tailscale (optional - can be installed via omarchy menu)
+# tailscale
+
+# 1Password (optional - can be installed via omarchy menu)
+# 1password-beta
+# 1password-cli
