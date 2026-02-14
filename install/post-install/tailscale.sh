@@ -6,7 +6,7 @@ if command -v tailscale >/dev/null 2>&1; then
   TAILSCALE_AUTHKEY_FILE="/root/tailscale-authkey.txt"
   if [[ -f "$TAILSCALE_AUTHKEY_FILE" ]]; then
     TAILSCALE_AUTHKEY=$(cat "$TAILSCALE_AUTHKEY_FILE" | tr -d '[:space:]')
-    sudo tailscale up --authkey "$TAILSCALE_AUTHKEY"
+    sudo tailscale up --authkey "$TAILSCALE_AUTHKEY" --ssh
     # Remove the key file after use
     sudo rm -f "$TAILSCALE_AUTHKEY_FILE"
   fi

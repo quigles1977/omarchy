@@ -75,8 +75,12 @@ noto-fonts-emoji
 ttf-cascadia-mono-nerd
 ttf-jetbrains-mono-nerd
 
-# Tailscale
+# Remote access
+openssh
 tailscale
+
+# Firewall
+ufw
 
 # 1Password
 1password-beta
